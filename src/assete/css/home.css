@@ -1,0 +1,622 @@
+.mindtek_main_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  min-height: 65vh;
+  background: linear-gradient(to right, #9c24b099 , #8ecdff);
+  color: #fff;
+
+}
+
+/* Left content */
+.mindtek_left {
+  flex: 1;
+  max-width: 50%;
+    background-image: url(../image//04.png);
+  background-position: center;
+  background-size: cover;
+}
+.mindtek_left a{
+  text-decoration: none;
+}
+
+.mindtek_left h1 {
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+.mindtek_left p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.learn_more_btn {
+  background: #fff;
+  color: #9c24b0;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.learn_more_btn:hover {
+  background: #9c24b0;
+  color: #fff;
+}
+
+/* Right content */
+.mindtek_right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+   
+}
+
+.mindtek_right img {
+  max-width: 100%;
+  /* border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); */
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .mindtek_main_div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .mindtek_left, 
+  .mindtek_right {
+    max-width: 100%;
+  }
+
+  .mindtek_left h1 {
+    font-size: 32px;
+  }
+}
+.mindtek_second_div{
+    padding: 50px;
+}
+.mindtek_second_div_3 img{
+    width: 100%;
+    height: auto;
+}
+.mindtek_second_div_1{
+    display: flex;
+    gap: 50px;
+}
+.mindtek_second_div_3{
+    width: 100%;
+}
+.mindtek_second_div_3 h2{
+    font-size: 45px;
+    line-height: 1.6;
+    font-family: math;
+    font-weight: 400;
+}
+.mindtek_second_div_3 p{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+}
+.mindtek_second_div_3 button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #d956f0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.mindtek_second_div_3 a{
+  text-decoration: none;
+  color: #fff;
+}
+.mindtek_second_div_3 h3{
+  font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2.2px;
+    color: blue;
+}
+.mindtek_thired_div{
+    background-image: url(../image//pattern_img.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-color: #9c24b0;
+}
+.mindtek_thired_div_1{
+    padding: 50px;
+}  
+.mindtek_thired_div_2{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+} 
+.mindtek_thired_div_5 h1{
+    font-size: 20px;
+    font-weight: 400;
+} 
+.mindtek_thired_div_5 p{
+    font-size: 14px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.mindtek_thired_div_7 img{
+    width: 100%;
+}
+.mindtek_thired_div_2{
+    display: flex;
+    gap: 20px;
+}
+.mindtek_thired_div_5,.mindtek_thired_div_3{
+    width: 60%;
+}
+.mindtek_thired_div_3 h2{
+ font-size: 20px;
+    letter-spacing: 2.2px;
+    color: blue;
+}
+.mindtek_thired_div_3 p{
+  text-align: justify;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-left: 23px;
+  font-weight: 400;
+}
+.mindtek_new_design{
+  padding: 30px;
+  display: flex;
+}
+.mindtek_new_design_2{
+  padding: 10%;
+}
+.mindtek_new_design_4 img{
+  width: 100%;
+}
+.mindtek_new_design_2 h1{
+  font-size: 40px;
+}
+.mindtek_new_design_2 h2{
+  font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 10px;
+    color: #0710f3;
+}
+.mindtek_new_design_2 small span,
+.mindtek_new_design_2 p span {
+    font-style: italic;
+    font-size: 18px;
+}
+.mindtek_new_design_3 button{
+  padding: 10px 15px;
+  border-radius: 0px;
+  border: none;
+  background-color: #0710f3;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+.mindtek_new_design_3 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.mindtek_banner_div {
+    background-image: url('../image//numbers_section_bg2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 80px 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.mindtek_stats {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.stat_item h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.stat_item p {
+    font-size: 16px;
+    font-weight: 500;
+}
+.mindtek_new_card_div_4{
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 100%;
+  height: auto;
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+.mindtek_new_card_div{
+  padding: 50px;
+  background-color:#f3f7fd;
+}
+.mindtek_new_card_div_2{
+  display: flex;
+  gap: 20px;
+}
+.mindtek_new_card_div_1{
+  display: grid;
+  gap: 20px;
+}
+.mindtek_new_card_div_4 .icon {
+    font-size: 40px;
+    color: #0710f3; 
+    margin-bottom: 10px;
+}
+.mindtek_new_card_div_4 h2{
+  font-size: 25px;
+  font-weight: 500;
+  font-family: math;
+}
+.mindtek_new_card_div_4 p{
+  font-size: 15px;
+  line-height: 1.9;
+  text-align: justify;
+}
+.mindtek_new_card_div_3 p{
+  text-align: center;
+  font-size: 20px;
+}
+.mindtek_new_card_div_3 h2{
+  text-align: center;
+  font-size: xx-large;
+}
+.mindtek_process_div{
+  padding: 30px;
+}
+.mindtek_process_div_3{
+  display: flex;
+  gap: 20px;
+}
+.mindtek_process_div_4 h2{
+  text-align: center;
+  font-size: 25px;
+  margin-top: 35px;
+}
+.mindtek_process_div_4 p{
+  text-align: center;
+}
+.mindtek_process_div_4 img{
+    width: 150px; 
+   border-radius: 50%;
+  z-index: 2;
+  position: relative;
+}
+.mindtek_process_div_4 {
+  text-align: center;
+  position: relative;
+}
+
+.image_wrapper {
+  position: relative;
+  display: inline-block;
+}
+.circle_border {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200px;
+  height: 200px;
+  border: 2px dashed #007bff;
+  border-radius: 50%;
+  animation: rotateDash 10s linear infinite;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes rotateDash {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+
+
+
+
+.step_number {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: #007bff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+}
+.mindtek_process_div_1 h3{
+  text-align: center;
+  font-size: 15px;
+
+}
+.mindtek_process_div_1 h2{
+  text-align: center;
+  font-size: 35px;
+}
+.arrow_shape{
+  width: 15%;
+  height: 24px;
+  margin-top: 5%;
+}
+
+.mindtek_best_it_div_1{
+  display: flex;
+  gap: 20px;
+}
+.mindtek_best_it_div_3 img{
+  width: 100%;
+  margin-top: 15%;
+}
+.mindtek_best_it_div{
+  padding: 50px;
+}
+.mindtek_best_it_div_2 h2{
+  font-size: 42px;
+}
+.mindtek_best_it_div_2 p{
+  text-align: justify ;
+  font-size: 14px;
+}
+.mindtek_best_it_div_4 h1{
+ display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.service-icon {
+  color: #007bff; 
+  margin-right: 10px;
+  font-size: 28px;
+}
+.mindtek_best_it_div_4 h4{
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 40px;
+}
+.mindtek_best_it_div_2 h3{
+  font-size: 16px;
+  font-weight: bold;
+  color: #007bff;
+}
+.mindtek_best_it_div_4 h1:hover{
+  color: #0710f3;
+  cursor: pointer;
+}
+.mindtek_back_clr_div_1{
+  display: flex;
+  gap: 20px;
+  padding: 50px;
+}
+.mindtek_back_clr_div{
+  background-color: #0710f3;
+}
+
+.mindtek_back_clr_div_2 h2{
+  font-size: 35px;
+  color: #ffffff;
+}
+.mindtek_back_clr_div_2 p{
+  color: #CFD7EF;
+  line-height: 1.4;
+  font-size: 15px;
+}
+.mindtek_back_clr_div_4{
+  margin: auto;
+}
+.mindtek_back_clr_div_3 {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end; /* Align to right */
+  align-items: center; /* Center vertically */
+  height: 100px; /* Add height if needed */
+  padding-right: 0px; /* Optional: spacing from right edge */
+  margin-top: 5%;
+}
+
+.mindtek_back_clr_div_4 button {
+  padding: 12px 24px;
+  font-size: 16px;
+  background: #0710f3; /* Example color */
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.mindtek_back_clr_div_4 a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  /* Main Banner Section */
+  .mindtek_main_div {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+  }
+
+  .mindtek_left {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .mindtek_left h1 {
+    font-size: 28px;
+  }
+
+  .mindtek_left p {
+    font-size: 16px;
+  }
+
+  .mindtek_right img {
+    max-width: 90%;
+  }
+
+  /* Second Section */
+  .mindtek_second_div {
+    padding: 20px;
+  }
+
+  .mindtek_second_div_1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mindtek_second_div_3 h2 {
+    font-size: 28px;
+  }
+
+  .mindtek_second_div_3 p {
+    font-size: 14px;
+  }
+
+  /* Third Section (Cards) */
+  .mindtek_thired_div_1 {
+    padding: 20px;
+  }
+
+  .mindtek_thired_div_2 {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .mindtek_thired_div_3,
+  .mindtek_thired_div_5 {
+    width: 100%;
+  }
+
+  .mindtek_thired_div_3 h2 {
+    font-size: 16px;
+  }
+
+  .mindtek_thired_div_3 p {
+    margin-left: 0;
+  }
+
+  /* New Design Section */
+  .mindtek_new_design {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .mindtek_new_design_2 {
+    padding: 20px;
+  }
+
+  .mindtek_new_design_2 h1 {
+    font-size: 28px;
+  }
+
+  .mindtek_new_design_2 h2 {
+    font-size: 14px;
+    letter-spacing: 4px;
+  }
+
+  /* Stats Banner */
+  .mindtek_stats {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .stat_item h2 {
+    font-size: 24px;
+  }
+
+  /* Card Section */
+  .mindtek_new_card_div {
+    padding: 20px;
+  }
+
+  .mindtek_new_card_div_2 {
+    flex-direction: column;
+  }
+
+  .mindtek_new_card_div_4 {
+    padding: 20px;
+  }
+  .mindtek_new_card_div_4{
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 90%;
+  height: auto;
+ 
+  border-radius: 10px;
+  background-color: #ffffff;
+
+  }
+  /* Process Section */
+  .mindtek_process_div_3 {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .arrow_shape {
+    display: none;
+  }
+
+  .mindtek_process_div_4 img {
+    width: 120px;
+  }
+
+  .circle_border {
+    width: 150px;
+    height: 150px;
+  }
+
+  /* Best IT Section */
+  .mindtek_best_it_div {
+    padding: 20px;
+  }
+
+  .mindtek_best_it_div_1 {
+    flex-direction: column;
+  }
+
+  .mindtek_best_it_div_2 h2 {
+    font-size: 28px;
+  }
+
+  .mindtek_best_it_div_3 img {
+    margin-top: 0;
+  }
+
+  /* Background Color Section */
+  .mindtek_back_clr_div_1 {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .mindtek_back_clr_div_3 {
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .mindtek_back_clr_div_2 h2 {
+    font-size: 30px;
+    color: #ffffff;
+}
+}

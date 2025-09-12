@@ -1,0 +1,93 @@
+.terms_div {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-image: url('../image/terms-banner.jpg'); /* Replace with your banner image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+}
+.terms_condition,.terms_condition_1,.terms_condition_2 {
+  padding: 50px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.9;
+}
+
+.terms_condition h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.terms_condition p,.terms_condition_1 p,.terms_condition_2 p {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.iconss {
+  color: #007bff;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+
+@media (max-width: 768px) {
+  .terms_div {
+    height: 180px; /* Reduce banner height for mobile */
+    background-position: top;
+  }
+
+  .terms_condition,
+  .terms_condition_1,
+  .terms_condition_2 {
+    padding: 20px; /* Reduce padding */
+    font-size: 14px; /* Smaller text for mobile */
+    line-height: 1.6;
+  }
+
+  .terms_condition h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  .terms_condition p,
+  .terms_condition_1 p,
+  .terms_condition_2 p {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .iconss {
+    font-size: 14px;
+    margin-right: 6px;
+  }
+}
+
+/* ✅ Extra Small Devices (max-width: 480px) */
+@media (max-width: 480px) {
+  .terms_div {
+    height: 150px; /* Further reduce height */
+    background-size: cover;
+  }
+
+  .terms_condition,
+  .terms_condition_1,
+  .terms_condition_2 {
+    padding: 15px;
+    font-size: 13px;
+  }
+
+  .terms_condition h2 {
+    font-size: 16px;
+  }
+
+  .iconss {
+    font-size: 25px;
+  }
+}

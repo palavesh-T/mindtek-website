@@ -1,0 +1,308 @@
+.mindtek_conatct_banner {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-image: url('../image/contact\ banner.webp'); /* Replace with your banner image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+}
+
+.mindtek_conatct_banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.mindtek_conatct_banner h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  z-index: 1; /* Ensure text is above overlay */
+  text-transform: uppercase;
+}
+.contact_page{
+    background-image: url(../image//contact1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+}
+.contact_page_2{
+    display: flex;
+    gap: 20px;
+    padding: 50px;
+}
+.contact_page_3{
+    display: flex;
+    justify-content: space-around; /* space between text and icon */
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+    width: 100%;
+}
+.contact_text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* spacing between h1 and link */
+}
+
+.contact_page_3 h1 {
+    font-size: 20px;
+    margin: 0;
+     font-family: Rajdhani, sans-serif;
+        font-weight: 400;
+}
+.contact_page_3 a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.contact_page_3 h2 {
+    font-size: 30px; /* icon size */
+    color: #007BFF;  /* icon color */
+    margin: 0;
+       
+}
+
+.contact_page_3 svg {
+    color: #007BFF; /* icon color */
+    font-size: 41px; /* icon size */
+}
+.icon_circle {
+    width: 65px;  /* size of the circle */
+    height: 65px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue; /* icon color */
+    font-size: 22px; /* icon size */
+}
+.conatct_form_div_1
+{
+    display: flex;
+    gap: 20px;
+}
+.conatct_form_div_3{
+    display: flex;
+    gap: 20px;
+}
+.conatct_form_div_2,.conatct_form_div_6{
+    width: 100%;
+}
+.conatct_form_div{
+    padding: 50px;
+    background-color: aliceblue;
+}
+.conatct_form_div_6 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    
+}
+
+.conatct_form_div_7 {
+    width: 100%;
+    max-width: 600px;
+   
+    padding: 25px;
+    border-radius: 8px;
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.conatct_form_div_8 {
+    display: flex;
+    gap: 9%;
+    
+}
+.input-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack input and error */
+   
+}
+
+
+.conatct_form_div_8 input {
+    width: 50%;
+}
+
+.conatct_form_div_9 input,
+.conatct_form_div_8 input,
+.conatct_form_div_10 textarea {
+    width: 94%;
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.conatct_form_div_9 input:focus,
+.conatct_form_div_8 input:focus,
+.conatct_form_div_10 textarea:focus {
+    border-color: #007BFF; /* Highlight color */
+}
+
+.conatct_form_div_10 textarea {
+    height: 120px;
+    resize: none;
+}
+.conatct_form_div_2 h2{
+    font-size: 45px;
+}
+.conatct_form_div_4 p,
+.conatct_form_div_5 p {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #333;
+    margin: 8px 0;
+}
+
+.conatct_form_div_4 p svg,
+.conatct_form_div_5 p svg {
+    color: #007BFF; /* Blue icon */
+    font-size: 18px;
+}
+.conatct_form_div_2 p{
+    font-size: 18px;
+
+}
+.contct_sbt_btn button{
+    padding: 15px 25px;
+    border: none;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .mindtek_conatct_banner {
+    height: 200px; /* Reduce banner height */
+  }
+
+  .mindtek_conatct_banner h2 {
+    font-size: 28px; /* Smaller heading */
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .contact_page_2 {
+    flex-direction: column; /* Stack elements */
+    padding: 20px;
+    gap: 15px;
+  }
+
+  .contact_page_3 {
+    flex-direction: column; /* Stack text and icon */
+    text-align: center;
+    gap: 10px;
+    padding: 12px;
+    width: 92%;
+  }
+
+  .icon_circle {
+    width: 55px;
+    height: 55px;
+    font-size: 18px;
+  }
+
+  .contact_page_3 h1 {
+    font-size: 18px;
+  }
+
+  .contact_page_3 a {
+    font-size: 16px;
+  }
+
+  .contact_page_3 svg {
+    font-size: 35px;
+  }
+
+  .conatct_form_div {
+    padding: 20px;
+  }
+
+  .conatct_form_div_1,
+  .conatct_form_div_3,
+  .conatct_form_div_8 {
+    flex-direction: column; /* Stack inputs vertically */
+    gap: 10px;
+  }
+
+  .conatct_form_div_8 input,
+  .conatct_form_div_9 input,
+  .conatct_form_div_10 textarea {
+    width: 100%; /* Full width for inputs */
+  }
+
+  .conatct_form_div_2 h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .conatct_form_div_2 p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .contct_sbt_btn {
+    text-align: center;
+  }
+
+  .contct_sbt_btn button {
+    width: 40%; /* Full width button */
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mindtek_conatct_banner h2 {
+    font-size: 22px;
+  }
+
+  .contact_page_3 h1 {
+    font-size: 16px;
+  }
+
+  .contact_page_3 a {
+    font-size: 14px;
+  }
+
+  .conatct_form_div_2 h2 {
+    font-size: 26px;
+  }
+
+  .contct_sbt_btn button {
+    font-size: 14px;
+    padding: 12px 20px;
+  }
+  .conatct_form_div_6 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+}
+
+

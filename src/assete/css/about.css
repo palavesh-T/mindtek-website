@@ -1,0 +1,220 @@
+.about-banner {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  background-image: url('../image//breadcrumb-bg.png'); /* Replace with your banner image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  position: relative;
+}
+
+.about-banner::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+}
+
+.about-banner h2 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+  z-index: 1; /* Ensure text is above overlay */
+  text-transform: uppercase;
+}
+.mindtek_about_div_2{
+    display: flex;
+}
+.mindtek_about_div{
+    display: flex;
+    gap:20px;
+    padding: 50px;
+}
+.mindtek_about_div_5 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.mindtek_about_div_7 img{
+    width: 100%;
+     border-radius: 10px;
+}
+.mindtek_about_div_4 p{
+    font-size: 18px;
+}
+.mindtek_about_div_4 button{
+    padding: 15px 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.mindtek_about_div_4 a{
+    text-decoration: none;
+    color: #fff;
+}
+.mindtek_about_div_3 h2{
+    font-size: 13px;
+    font-weight: 500;
+    color: blue;
+}
+
+.mindtek_about_div_8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px; /* Space between items */
+  padding: 0px 0;
+  background: #f8f9fa; /* Light background */
+  border-radius: 10px;
+}
+
+.mindtek_about_stats {
+  text-align: center;
+}
+
+.mindtek_about_stats h2 {
+  font-size: 45px;
+  font-weight: 400;
+  color: blue; /* Accent color */
+  margin-bottom: 10px;
+  font-family: Sora;
+}
+
+.mindtek_about_stats p {
+  font-size: 18px;
+  color: #333;
+}
+.about_banner_div{
+      width: 100%;
+  height: 400px; /* Adjust height as needed */
+  background-image: url('../image//about\ banner.jpg'); /* Replace with your banner image */
+  background-size: cover;
+  background-position: center;
+}
+.about_vission_div{
+    padding: 50px;
+}
+.about_vission_div_1{
+   display: flex;
+  align-items: flex-start;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px;
+  gap: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  background: #fff;
+}
+.about_vission_div_2,.about_vission_div_3{
+    width: 100%;
+}
+.about_vission_div_2 img{
+    width: 90%;
+    border-radius: 10px;
+}
+.about_vission_div_3 h2 {
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.about_vission_div_3 p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Mobile View */
+@media (max-width: 768px) {
+  .about-banner {
+    height: 200px; /* Reduce banner height */
+  }
+
+  .about-banner h2 {
+    font-size: 28px; /* Smaller heading */
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .mindtek_about_div {
+    flex-direction: column; /* Stack content */
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .mindtek_about_div_2 {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mindtek_about_div_4 p {
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .mindtek_about_div_4 button {
+    width: 40%;
+    font-size: 14px;
+    padding: 12px;
+  }
+
+  .mindtek_about_div_5 img,
+  .mindtek_about_div_7 img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 15px;
+  }
+
+  .mindtek_about_div_8 {
+    flex-direction: column; /* Stack stats vertically */
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .mindtek_about_stats h2 {
+    font-size: 30px;
+  }
+
+  .mindtek_about_stats p {
+    font-size: 16px;
+  }
+
+  .about_banner_div {
+    height: 200px;
+    background-position: center;
+  }
+
+  .about_vission_div {
+    padding: 20px;
+  }
+
+  .about_vission_div_1 {
+    flex-direction: column;
+    text-align: center;
+    padding: 15px;
+    gap: 15px;
+  }
+
+  .about_vission_div_2 img {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .about_vission_div_3 h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .about_vission_div_3 p {
+    font-size: 14px;
+    text-align: justify;
+  }
+}

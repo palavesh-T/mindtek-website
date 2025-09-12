@@ -1,0 +1,37 @@
+/* Admin Header Styles */
+.admin-header {
+    width: 100%;
+    background: #1e1e2f;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    font-family: Arial, sans-serif;
+}
+
+.admin-logo img {
+      margin-left: 20px;
+    max-width: 20%;
+}
+
+.admin-nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.admin-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.admin-nav ul li a:hover {
+    color: #00c3ff;
+}
