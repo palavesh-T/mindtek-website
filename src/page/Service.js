@@ -92,7 +92,7 @@ const Service = () =>{
                 <div className="mindtek_service_div_3">
                     <h2>INDUSTRIES WE HELP</h2>
                     <h1>Solving IT Challenges in Every Industry</h1>
-                    <p>Every industry faces unique IT hurdles, from data security to system integration.Technology-driven solutions improve efficiency, reduce costs, and enhance productivity.   Cloud computing and AI help businesses adapt quickly to changing market demands.</p>
+                    <p>Every industry faces unique IT hurdles, from data security to system integration.     Technology-driven solutions improve efficiency, reduce costs, and enhance productivity.   Cloud computing and AI help businesses adapt quickly to changing market demands.</p>
                     <div className="mindtek_service_div_4">
                         <div className="mindtek_service_div_5">
                              <h3><FaIndustry className="services_icon" /> Advanced Manufacturing</h3>

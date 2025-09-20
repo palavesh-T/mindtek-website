@@ -22,7 +22,7 @@ const Footer = () => {
           <img src={footerLogo} alt="Company Logo" />
           <p>
             MindTek Research and IT Solutions (P) Ltd.,
-            provides innovative solutions and IT services for businesses and research.
+            provides innovative solutions and IT services for businesses and development.
           </p>
         </div>
         

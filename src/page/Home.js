@@ -243,7 +243,6 @@ const Home = () => {
   </div>
 </div>
 
-
 <div className="mindtek_best_it_div">
   <div className="mindtek_best_it_div_1">
     <div className="mindtek_best_it_div_2">
@@ -264,10 +263,9 @@ const Home = () => {
   <div className="service-item">
     <h1><FaDatabase className="service-icon" /> Data Backup & Disaster Recovery</h1>
     <h4>Protect your critical business data with our secure backup solutions.
-We offer automated data backup systems to prevent data loss.</h4>
+        We offer automated data backup systems to prevent data loss.</h4>
   </div>
 </div>
-
     </div>
     <div className="mindtek_best_it_div_3">
       <img src={photo_collage} ALT=""/>

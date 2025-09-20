@@ -51,6 +51,13 @@ const Header = () => {
         >
           Services
         </NavLink>
+          <NavLink
+          to="/Pricing"
+          className={({ isActive }) => (isActive ? "active" : "")}
+          onClick={() =>{ setMenuOpen(false); setTimeout(() => { window.scrollTo(0, 0);  }, 0);}}
+        >
+          Pricing
+        </NavLink>
         <NavLink
           to="/Contact"
           className={({ isActive }) => (isActive ? "active" : "")}

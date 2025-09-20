@@ -14,6 +14,7 @@ import Privacypolicy from "./page/Privacypolicy";
 import Termscondition from "./page/termscondition";
 import Cancellationpolicy from "./page/Cancellationpolicy";
 import Admin from "./admin/Admin";
+import Pricing from "./page/Pricing";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="Privacypolicy" element={<Privacypolicy/>} />
         <Route path="Termscondition" element={<Termscondition/>} />
         <Route path="Cancellationpolicy" element={<Cancellationpolicy/>} />
+        <Route path="Pricing" element={<Pricing/>} />
 
       </Routes>
     </HelmetProvider>
